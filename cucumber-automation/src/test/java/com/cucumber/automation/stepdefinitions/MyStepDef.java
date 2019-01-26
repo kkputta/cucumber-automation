@@ -44,7 +44,7 @@ public class MyStepDef {
 		try {
 			Thread.sleep(60);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
